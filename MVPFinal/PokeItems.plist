@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Description</key>
+		<string>After you&apos;ve been playing the game a while, you will have accumulated many friends. Not real friends, of course - Lord, no. I&apos;m talking about your collection of Pokemon. You can keep transferring surplus monsters to the ever-looming Professor, but you&apos;ll only get one candy for each one and that starts to feel like scant reward for your efforts. If you&apos;ve hit the limit of how many you&apos;re allowed to hang onto, you can purchase space for an extra 50 monsters for 200 Pokecoins.</string>
+		<key>Name</key>
+		<string>Storage upgrade</string>
+		<key>ImageName</key>
+		<string>storage.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Sadly, Pokemon Go appears to be operating in much the same way as a budget airline when it comes to baggage allowance. You can carry 350 to begin with, and have to purchase extra in quantities of 50 thereafter at a cost of 200 Pokecoins.</string>
+		<key>Name</key>
+		<string>Bag upgrade</string>
+		<key>ImageName</key>
+		<string>bag.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>A world apart from the ubiquitous pokeballs, master balls are thin on the ground! Haven&apos;t been seen in the game since beta testing and will be very rare whenever they do start to show up again. They have a 100-per-cent capture rate; master balls never fail. Just like in the original video game series, they&apos;re best saved for legendary Pokemon like Mewtwo.</string>
+		<key>Name</key>
+		<string>Masterball</string>
+		<key>ImageName</key>
+		<string>master.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>These are your staple item for catching Pokemon, from Squirtl to Pikachu. You can&apos;t catch anything if you run out of pokeballs. Fortunately, they&apos;re incredibly common; Pokestops are bursting at the seams with them and they&apos;re available from the shop in batches of 20, 100 and 200 (priced at 100, 460 and 800 Pokecoins respectively).</string>
+		<key>Name</key>
+		<string>Pokeball</string>
+		<key>ImageName</key>
+		<string>pokeball.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Rumour has it these are available at level 20. Ahem, spot the Pokemon trainer who hasn&apos;t reached those dizzy heights yet... but as with your great balls, ultra balls are another step up in effectiveness - and in price.</string>
+		<key>Name</key>
+		<string>Ultraball</string>
+		<key>ImageName</key>
+		<string>ultra.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Quiet at the back! Not everyone has great balls - at least not until level 12. They&apos;re an improved version of pokeballs and thus your odds of capturing a Pokemon with one of these is higher than with the standard model.</string>
+		<key>Name</key>
+		<string>GreatBall</string>
+		<key>ImageName</key>
+		<string>great.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>For half an hour, if you&apos;ve used up a lucky egg, you&apos;ll get double the experience points (XP) for anything and everything you do. Best used when you&apos;re expecting to be busy - and can be very useful in conjunction with other items such as lures (see below). Don&apos;t use one just as you&apos;re sitting down to work at 9am. You can always purchase more at the shop if you make a mistake; it&apos;s 80 Pokecoins for one egg, 500 for eight, and 1,250 for 25.</string>
+		<key>Name</key>
+		<string>Lucky eggs</string>
+		<key>ImageName</key>
+		<string>lucky.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Not to be confused with lucky eggs - you don&apos;t consume Pokemon eggs, you incubate them until they hatch.  Found every so often at Pokestops and use the distance you have walked while playing the game as a measure of when to hatch.</string>
+		<key>Name</key>
+		<string>Pokemon Eggs</string>
+		<key>ImageName</key>
+		<string>egg.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>No surprises here - potions restore the health of your Pokemon after battles. Unlocked at level five, to coincide with your introduction to gym battles.</string>
+		<key>Name</key>
+		<string>Potion</string>
+		<key>ImageName</key>
+		<string>potion.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Who doesn&apos;t like incense? Well, this writer, for one - but Pokemon clearly love it. If you use incense in the game, you&apos;ll become a magnet for Pokemon - again, just for 30 minutes.  Perfect for those lazy Sundays on the sofa, available at the shop for 80 Pokecoins each (500 Pokecoins for eight; 1,250 for 25).</string>
+		<key>Name</key>
+		<string>Incense</string>
+		<key>ImageName</key>
+		<string>Incense.png</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>You get one of these to start off with, and can buy more for 150 Pokecoins a time.  They&apos;re the means by which you can move a Pokemon egg closer to hatching.</string>
+		<key>Name</key>
+		<string>Egg incubator</string>
+		<key>ImageName</key>
+		<string>eggInc.png</string>
+	</dict>
+</array>
+</plist>
