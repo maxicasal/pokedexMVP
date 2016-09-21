@@ -9,6 +9,7 @@
 import Foundation
 
 struct Item {
+
   var name: String
   var fullDescription: String
   var imageName: String

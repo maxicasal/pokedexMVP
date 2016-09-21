@@ -10,9 +10,10 @@ import UIKit
 
 class PokeItemsViewController: UIViewController {
 
+  @IBOutlet var itemsTableView: UITableView!
+
   private let kItemCellIdentifier = "kItemCellIdentifier"
   private var items = [Item]()
-  @IBOutlet var itemsTableView: UITableView!
 
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)

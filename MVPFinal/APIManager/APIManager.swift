@@ -43,6 +43,7 @@ class APIManager {
           }
         }
       }
+
       return (disposition, credential)
     }
   }

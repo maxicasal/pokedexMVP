@@ -9,7 +9,7 @@
 import UIKit
 
 class ItemTableViewCell: UITableViewCell {
- 
+
   @IBOutlet var avatarImageView: UIImageView!
   @IBOutlet var titleLabel: UILabel!
   @IBOutlet var fullDescription: UITextView!

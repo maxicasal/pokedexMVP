@@ -9,4 +9,3 @@
 import Foundation
 
 let kPokemonURL = "/pokemon/"
-

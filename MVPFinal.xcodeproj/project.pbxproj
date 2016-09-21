@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D58E433B3FB29D9907DE1D41 /* Pods_MVPFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A5485EEE9944924D8FC1CE /* Pods_MVPFinal.framework */; };
+		FBCE04961D85F726002A6923 /* PokeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE04951D85F726002A6923 /* PokeListView.swift */; };
+		FBCE04981D85F742002A6923 /* PokeItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE04971D85F742002A6923 /* PokeItemsView.swift */; };
+		FBCE049B1D85F781002A6923 /* PokeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE049A1D85F781002A6923 /* PokeListPresenter.swift */; };
+		FBCE049E1D85F79E002A6923 /* PokeItemsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE049D1D85F79E002A6923 /* PokeItemsPresenter.swift */; };
 		FBD56C591D7F1467001BA467 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD56C571D7F1467001BA467 /* ItemTableViewCell.swift */; };
 		FBD56C5A1D7F1467001BA467 /* PokeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD56C581D7F1467001BA467 /* PokeTableViewCell.swift */; };
 		FBD56C5E1D7F1475001BA467 /* PokeItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD56C5B1D7F1475001BA467 /* PokeItemsViewController.swift */; };
@@ -53,6 +57,10 @@
 		FBA187681D5D3EC00046FB8E /* MVPFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVPFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA1877E1D5D3EC00046FB8E /* MVPFinal.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPFinal.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA187891D5D3EC00046FB8E /* MVPFinal.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPFinal.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCE04951D85F726002A6923 /* PokeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokeListView.swift; path = MVPFinal/Views/PokeListView.swift; sourceTree = SOURCE_ROOT; };
+		FBCE04971D85F742002A6923 /* PokeItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokeItemsView.swift; path = MVPFinal/Views/PokeItemsView.swift; sourceTree = SOURCE_ROOT; };
+		FBCE049A1D85F781002A6923 /* PokeListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokeListPresenter.swift; path = MVPFinal/Presenters/PokeListPresenter.swift; sourceTree = SOURCE_ROOT; };
+		FBCE049D1D85F79E002A6923 /* PokeItemsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokeItemsPresenter.swift; path = MVPFinal/Presenters/PokeItemsPresenter.swift; sourceTree = SOURCE_ROOT; };
 		FBD56C571D7F1467001BA467 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemTableViewCell.swift; path = MVPFinal/Views/ItemTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		FBD56C581D7F1467001BA467 /* PokeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokeTableViewCell.swift; path = MVPFinal/Views/PokeTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		FBD56C5B1D7F1475001BA467 /* PokeItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PokeItemsViewController.swift; path = MVPFinal/ViewControllers/PokeItemsViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -166,10 +174,11 @@
 		FBA1876A1D5D3EC00046FB8E /* MVPStart */ = {
 			isa = PBXGroup;
 			children = (
-				FBD56C771D7F14C5001BA467 /* AppDelegate.swift */,
 				FB9B983C1D5E14650007980B /* APIManager */,
+				FBD56C771D7F14C5001BA467 /* AppDelegate.swift */,
 				FB9B983D1D5E147C0007980B /* Helpers */,
 				FB9B983B1D5E14340007980B /* Models */,
+				FBCE04991D85F74E002A6923 /* Presenters */,
 				FBAAA4781D5E060800217F74 /* Resources */,
 				FBAAA4771D5E05FC00217F74 /* Storyboards */,
 				FBAAA4791D5E060E00217F74 /* ViewControllers */,
@@ -210,9 +219,20 @@
 		FBBA2AC21D65F1C3002B40E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FBCE04971D85F742002A6923 /* PokeItemsView.swift */,
+				FBCE04951D85F726002A6923 /* PokeListView.swift */,
 				FBCFD1A41D7F0B5300798E52 /* TableViewCells */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		FBCE04991D85F74E002A6923 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE049D1D85F79E002A6923 /* PokeItemsPresenter.swift */,
+				FBCE049A1D85F781002A6923 /* PokeListPresenter.swift */,
+			);
+			name = Presenters;
 			sourceTree = "<group>";
 		};
 		FBCFD1A41D7F0B5300798E52 /* TableViewCells */ = {
@@ -489,14 +509,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD56C781D7F14C5001BA467 /* AppDelegate.swift in Sources */,
+				FBCE049E1D85F79E002A6923 /* PokeItemsPresenter.swift in Sources */,
 				FBD56C6F1D7F14A1001BA467 /* Item.swift in Sources */,
 				FBD56C721D7F14AD001BA467 /* Constants.swift in Sources */,
+				FBCE04961D85F726002A6923 /* PokeListView.swift in Sources */,
 				FBD56C751D7F14B7001BA467 /* APIManager.swift in Sources */,
 				FBD56C761D7F14B7001BA467 /* APIManagerPokemonExtension.swift in Sources */,
 				FBD56C5E1D7F1475001BA467 /* PokeItemsViewController.swift in Sources */,
+				FBCE04981D85F742002A6923 /* PokeItemsView.swift in Sources */,
 				FBD56C591D7F1467001BA467 /* ItemTableViewCell.swift in Sources */,
 				FBD56C601D7F1475001BA467 /* PokemonDetailViewController.swift in Sources */,
 				FBD56C701D7F14A1001BA467 /* Pokemon.swift in Sources */,
+				FBCE049B1D85F781002A6923 /* PokeListPresenter.swift in Sources */,
 				FBD56C5F1D7F1475001BA467 /* PokeListViewController.swift in Sources */,
 				FBD56C5A1D7F1467001BA467 /* PokeTableViewCell.swift in Sources */,
 			);

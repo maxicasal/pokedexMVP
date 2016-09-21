@@ -10,6 +10,7 @@ import ObjectMapper
 import UIKit
 
 class Pokemon: Mappable{
+
   var name: String?
   var id: Int?
   var height: Int?
