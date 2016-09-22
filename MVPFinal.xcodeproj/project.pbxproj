@@ -20,7 +20,6 @@
 		FBD56C651D7F1483001BA467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD56C611D7F1483001BA467 /* LaunchScreen.storyboard */; };
 		FBD56C661D7F1483001BA467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD56C631D7F1483001BA467 /* Main.storyboard */; };
 		FBD56C6A1D7F1492001BA467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD56C671D7F1492001BA467 /* Assets.xcassets */; };
-		FBD56C6B1D7F1492001BA467 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBD56C681D7F1492001BA467 /* Info.plist */; };
 		FBD56C6C1D7F1492001BA467 /* PokeItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBD56C691D7F1492001BA467 /* PokeItems.plist */; };
 		FBD56C6F1D7F14A1001BA467 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD56C6D1D7F14A1001BA467 /* Item.swift */; };
 		FBD56C701D7F14A1001BA467 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD56C6E1D7F14A1001BA467 /* Pokemon.swift */; };
@@ -356,7 +355,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD56C6B1D7F1492001BA467 /* Info.plist in Resources */,
 				FBD56C651D7F1483001BA467 /* LaunchScreen.storyboard in Resources */,
 				FBD56C6C1D7F1492001BA467 /* PokeItems.plist in Resources */,
 				FBD56C6A1D7F1492001BA467 /* Assets.xcassets in Resources */,

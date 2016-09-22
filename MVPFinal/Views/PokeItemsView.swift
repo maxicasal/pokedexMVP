@@ -9,6 +9,5 @@
 import Foundation
 
 protocol PokeItemsView {
-  func getPokeItems()
-  func showErrorRetrivingItems(message: String)
+  func getPokeItems(items: [Item])
 }

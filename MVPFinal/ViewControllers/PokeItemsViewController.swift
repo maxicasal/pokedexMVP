@@ -14,20 +14,12 @@ class PokeItemsViewController: UIViewController {
 
   private let kItemCellIdentifier = "kItemCellIdentifier"
   private var items = [Item]()
+  private var presenter = PokeItemsPresenter()
 
   override func viewWillAppear(animated: Bool) {
     super.viewWillAppear(animated)
-    loadItemsFromPlist()
-  }
-
-  private func loadItemsFromPlist() {
-    let itemsArray = NSArray(contentsOfFile: NSBundle.mainBundle().pathForResource("PokeItems", ofType: "plist")!)
-    for itemDict in itemsArray! {
-      items.append(Item(name: itemDict["Name"] as! String,
-        fullDescription: itemDict["Description"] as! String,
-        imageName: itemDict["ImageName"] as! String))
-    }
-    itemsTableView.reloadData()
+    presenter.attachView(self)
+    presenter.getItems()
   }
 }
 
@@ -43,5 +35,13 @@ extension PokeItemsViewController: UITableViewDataSource, UITableViewDelegate {
     cell.configure(item)
 
     return cell
+  }
+}
+
+extension PokeItemsViewController: PokeItemsView {
+
+  func getPokeItems(items: [Item]) {
+    self.items = items
+    itemsTableView.reloadData()
   }
 }
